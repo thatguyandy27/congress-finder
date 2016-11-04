@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <input type='text' ng-model='form.zipcode'></input>
+  <button ng-click='onClick()'>Submit</button>
+
+  <ul>
+    <li ng-repeat='member in congressMembers'>
+      {{member.first_name + ' ' + member.last_name}}
+    </li>
+  </ul>
+</div>
